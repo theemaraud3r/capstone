@@ -1,0 +1,322 @@
+body{
+  font-size: 16px;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Amiri;
+}
+.colmar{
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  height: 64px;
+}
+.mobileicon {
+  display: none;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait){
+.colmar span{
+  display: none;
+}
+.mobileicon{
+  display: inline-flex;
+  flex-wrap: nowrap;
+  padding-left: 1.5rem;
+  max-height: 3.2rem;
+  padding-top: .4rem;
+  align-items: center;
+}
+.banner{
+  flex-wrap: wrap;
+}
+.bannertext{
+  padding: 2rem 1rem;
+}
+.banner img{
+  padding: 0;
+  width: 100%
+}
+.bannertext p{
+}
+.Starthere{
+  display: inline-block;
+  flex-wrap: nowrap;
+}
+.Starthere a{
+  flex-wrap: nowrap;
+}
+}
+.colmar img{
+  padding-left: 1.5rem;
+  height: 3.2rem;
+  margin-top: .4rem;
+}
+ nav a{
+  padding-right: 1rem;
+  font-size: 1.2rem;
+}
+#academy{
+  color: rgba(151, 151, 151);
+}
+.headerlinks{
+  margin-left: auto;
+  padding-right: .75rem;
+  padding-left: .75rem;
+}
+#col, #academy{
+  font-size: 2rem;
+}
+.banner{
+  display: flex;
+  background-color: rgba(234, 234, 234, 1);
+  align-items: center;
+}
+.bannerimg{
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+.learn{
+  font-size: 2.3rem;
+  font-weight: bolder;
+}
+.bannertext p{
+  font-size: 1.8rem;
+}
+.Starthere{
+  font-size: 1.4rem;
+  background-color: rgba(110, 108, 107, 1);
+  padding: .5rem 7rem;
+  font-family: patua one;
+}
+.colmar span :hover{
+  background-color: rgba(77, 76, 76, 1);
+  color: white;
+}
+.Starthere a{
+  color: white;
+}
+
+/* end of fist part of page */
+
+.second{
+  width: 1024px;
+  display: flex;
+}
+.practicing img{
+  max-width: 100%;
+  margin: 2rem 1.5rem;
+}
+.practicing{
+  max-width: 60%;
+}
+.pract{
+    margin-left: 1.5rem;
+}
+.pract h2{
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+  font-family: Francois One;
+}
+.colum img{
+  width: 35%;
+  height: 100%;
+  margin: 1rem .3rem 1rem 1rem;
+}
+.pract h5{
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+.pract p{
+  font-size: 1.2rem;
+}
+.colum{
+  max-width: 40%;
+  margin-left: 2.5rem;
+  border-left: 1px solid rgba(234, 234, 234, 1);
+}
+.box{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(234, 234, 234, 1);
+}
+.boxinside{
+  font-size: .92rem;
+}
+.boxinside h3 {
+  padding-bottom: 1rem;
+  font-family: francois One;
+}
+.boxinside{
+  padding-bottom: 1rem;
+}
+.box h3{
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.mobilee{
+  display: none;
+}
+.colum a{
+  color: lightblue;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait){
+.mobilee{
+  display: flex;
+  padding: 0;
+}
+.practicing{
+  display: none;
+}
+.box{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+.box img{
+  width: auto;
+  max-width: 80%;
+  height: auto;
+}
+.desktopimg{
+  display: none;
+}
+.second{
+  display: block;
+}
+.colum{
+  border: none;
+  margin: 0;
+}
+.boxinside{
+  margin-left: 2rem;
+}
+}
+.containter{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px 56px;
+  padding-bottom: 2rem;
+}
+.cube{
+ width: 29.7%;
+ margin: 0 1rem 1rem 1rem;
+ background-color: white;
+}
+.cube img{
+  max-width: 100%;
+}
+.startl{
+  background-color: rgba(234, 234, 234, 1);
+}
+.startl h2{
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 300;
+  font-family: Francois One;
+}
+.cube h3{
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-family: Francois one;
+}
+.cube p{
+padding: .5rem 1rem;
+}
+#mobilestart1{
+  display: none;
+}
+
+/* end of second part of page */
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+#mobilestart1{
+  display: flex;
+  font-size: 1.5rem;
+  background-color: rgba(234, 234, 234, 1);
+  padding: 1rem 0 1.5rem 1rem;
+  margin: 1rem 1rem .5rem 1rem;
+  font-family: francois one;
+}
+.startl{
+  background-color: white;
+}
+.mobilestartlearning{
+  text-align: center;
+  margin-top: -3rem;
+}
+.cube{
+  display: none;
+}
+.exhibit{
+  display: none;
+}
+footer span{
+  display: none;
+}
+footer{
+  margin-top: 2.2rem;
+  border: none;
+}
+}
+.last h2{
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 0;
+  font-family: Francois one;
+  font-weight: bold;
+}
+.videoo{
+  width: 60%;
+  padding: 0 1.5rem;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 4800000px){
+.mobilevideo video{
+  display: none;
+}
+}
+.exhibitblocks{
+  width: 40%;
+  display: block;
+}
+.videoo h3{
+  font-size: 2rem;
+  padding-bottom: .5rem;
+  padding-top: 1.5rem;
+  font-family: Francois one;
+}
+.videoo p{
+  padding-bottom: 2rem;
+}
+.exhibit-container{
+  display: flex;
+}
+.block{
+  display: flex;
+  align-items: center;
+}
+.block img{
+  width: 35%;
+  height: 100%;
+  margin: 1rem;
+}
+.block h3{
+  font-size: 1.6rem;
+  font-family: Francois one;
+}
+
+footer{
+  display: flex;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(234, 234, 234, 1);
+  margin-bottom: 2rem;
+}
+footer span{
+  margin-left: auto;
+}
